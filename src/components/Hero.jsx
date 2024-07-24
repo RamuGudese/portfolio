@@ -46,7 +46,7 @@ function Hero() {
       <div className="absolute inset-0 pt-48 mt-20">
         {/* {theme === "dark" ? ( */}
         <h1 className="name md:text-8xl text-6xl text-center text-style font-bold">
-          Abhishek
+          Rajasekhar Maddasani
         </h1>
         {/* ) : (
           <h1 className="name-light md:text-8xl text-6xl text-center text-style font-bold">

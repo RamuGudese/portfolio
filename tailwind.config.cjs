@@ -26,8 +26,13 @@ module.exports = {
       dark: "#03001C",
       white: "#FFFFFF",
       black: "#000000",
+      red:"#FF0000",
+      yellow:"#FFFF00",
+      maroon:"#800000",
       name: "#14b8a6",
+      gold: '#FFD700',
     },
+    
   },
   plugins: [],
 };

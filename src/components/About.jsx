@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import html from "../assets/about/html.png";
 import css from "../assets/about/css3.png";
-import figma from "../assets/about/figma.png";
+// import figma from "../assets/about/figma.png";
 import javascript from "../assets/about/javascript.png";
 import github from "../assets/about/github.png";
 import react from "../assets/about/react.png";
@@ -9,8 +9,9 @@ import bootstrap from "../assets/about/bootstrap.png";
 import tailwind from "../assets/about/tailwind.png";
 import nodejs from "../assets/about/node.png";
 import vscode from "../assets/about/vscode.png";
-import xd from "../assets/about/xd.png";
+// import xd from "../assets/about/xd.png";
 import about from "../assets/about/about.png";
+import python from '../assets/about/python.jpg'
 import AOS from "aos";
 
 function About() {
@@ -44,11 +45,11 @@ function About() {
       >
         <div className="rounded-2xl md:w-2/3 text-glass shadow-[#aea5a2] dark:shadow-[#020010] dark:bg-[#111928bf] bg-[#f2f3f4] p-4 md:m-3 m-1 shadow-2xl">
           <h2 className="text-center text-style text-name text-3xl font-bold py-6">
-            Potula Abhishek
+            Rajasekhar Maddasani
           </h2>
           <div className="dark:text-white text-black font-semibold py-6">
             <h3 className="">
-              I'm a frontEnd Web Developer based in Hyderabad, India.
+              I'm a FrontEnd Developer at Attica Gold in Bangalore, India.
             </h3>
             <br />
             <h3 className="">
@@ -71,10 +72,16 @@ function About() {
         </div>
       </div>
       {/* Tech Icons */}
+
+      <h2 className="text-6xl text-center text-black dark:text-white font-bold">
+       Skills
+        <hr className="w-24 h-1 mx-auto my-6 bg-name rounded border-0"></hr>
+      </h2>
       <div
         data-aos="zoom-out"
         className="flex md:mx-6 mx-3 pt-8 flex-row justify-center flex-wrap"
       >
+       
         <img src={html} width="120" height="80" alt="Html" />
         <img src={css} width="120" height="80" alt="Css" />
         <img src={javascript} width="120" height="80" alt="Javascript" />
@@ -83,12 +90,19 @@ function About() {
         <img src={bootstrap} width="120" height="80" alt="Bootstrap" />
         <img src={tailwind} width="120" height="80" alt="Tailwind" />
         <img src={vscode} width="120" height="80" alt="VScode" />
-        <img src={xd} width="120" height="80" alt="Adobe xd" />
-        <img src={figma} width="120" height="80" alt="Figma" />
+        <img src={python} width="90" height="80" alt="python" className="rounded-xl object-contain"/>
+        <img src="https://i.pinimg.com/564x/91/23/7f/91237f1eca767ef74d722ca534f9281a.jpg" width="90"  alt="python" className="object-contain rounded-xl ml-5"/>
+        {/* <img src={xd} width="120" height="80" alt="Adobe xd" /> */}
+        {/* <img src={figma} width="120" height="80" alt="Figma" /> */}
         <img src={github} width="120" height="80" alt="Github" />
+        
       </div>
     </section>
   );
 }
 
 export default About;
+
+
+
+

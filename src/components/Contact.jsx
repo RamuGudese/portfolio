@@ -31,7 +31,10 @@ function Contact() {
             Fill me in on a project that you'd like to collaborate with me on.
           </h2>
           <h2 className="mb-4">Say Hi, and get in touch with me.</h2>
-          <a href="mailto:abhishekreddy235@gmail.com">
+          <button class="dark:bg-name bg-dark text-light transition-all duration-300 font-bold rounded-md py-2 px-4 my-4 mx-3">
+              Contact: 9676048900
+            </button>
+          <a href="mailto:mrajasekhar9676@gmail.com">
             <button class="dark:bg-name bg-dark text-light transition-all duration-300 font-bold rounded-md py-2 px-4 my-4">
               EMAIL ME
             </button>
@@ -42,17 +45,22 @@ function Contact() {
         You can fill out the above form and contact me or you can reach out to
         me just by clicking below social media icons
       </h4>
-      <div className="flex py-12 flex-row justify-center gap-8">
-        <a href="https://www.linkedin.com/in/abhishek-potula/" target="_blank">
+      <div className="flex py-8 flex-row justify-center gap-8">
+        <a href="https://www.linkedin.com/in/rajasekhar9676/" target="_blank">
           <img src={linkedin} alt="Linkedin" width="80" />
         </a>
-        <a href="https://github.com/Abhi-arch246" target="_blank">
+        <a href="https://github.com/rajasekhar9676" target="_blank">
           <img src={github} alt="Github" width="80" />
         </a>
-
+      
         {/* <img src={twitter} alt="Twitter" width="80" /> */}
+        
+          
       </div>
-      <h2 className="text-dark font-bold py-4 bg-name text-md  text-center">
+      {/* <div className="mt-0 mb-3">
+      <span className="dark:text-white dark:text-white ">Mobile No:  9676048900</span>
+      </div> */}
+      <h2 className="text-dark font-bold py-4 bg-name text-md  text-center text-underline">
         Designed with ❤️
       </h2>
     </section>

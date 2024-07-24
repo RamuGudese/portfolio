@@ -6,6 +6,7 @@ import {
   MoonIcon,
 } from "@heroicons/react/outline";
 import logo from "../assets/logo2.svg";
+import raja from '../assets/raja.png'
 
 function Navbar() {
   const [navbar, setNavbar] = useState(false);
@@ -57,8 +58,13 @@ function Navbar() {
   }, [theme]);
   return (
     <div className="main-nav fixed bg-[#f8ede30d] drop-shadow-3xl dark:border-[#24222e] border-[#dad2dc] border-b-2 w-screen z-10 h-20 mx-auto px-4 flex justify-between items-center dark:text-light text-dark">
+      {/* <a href="">
+        <img src={raja} alt="Website Logo" height="120" width="75" className="rounded-full text-white"/>
+      </a> */}
       <a href="">
-        <img src={logo} alt="Website Logo" height="120" width="75" />
+      <div className="flex items-center justify-center w-12 h-12 rounded-full bg-black dark:bg-white ">
+      <span className="text-gold text-5xl font-serif">R</span>
+    </div>
       </a>
       <ul className="hidden md:flex">
         <li className="nav-item p-4">
