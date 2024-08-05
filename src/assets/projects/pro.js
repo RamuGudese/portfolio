@@ -26,16 +26,16 @@ const dataProjects = [
 
         }
     ,
-    {
-        "id": 4,
-        "name": "Bike Rental",
-        "image": "https://res.cloudinary.com/dyn0kubms/image/upload/v1721820421/Screenshot_2024-07-24_163403_j5cztr.png",
-        "desc": "Github Link",
-        "link": "https://github.com/rajasekhar9676/bike-rental.git",
-        "status":"cursor-pointer"
+    // {
+    //     "id": 4,
+    //     "name": "Bike Rental",
+    //     "image": "https://res.cloudinary.com/dyn0kubms/image/upload/v1721820421/Screenshot_2024-07-24_163403_j5cztr.png",
+    //     "desc": "Github Link",
+    //     "link": "https://github.com/rajasekhar9676/bike-rental.git",
+    //     "status":"cursor-pointer"
 
 
-    },
+    // },
     {
         "id": 5,
         "name": "Weather Application",
@@ -46,16 +46,16 @@ const dataProjects = [
 
 
     },
-    {
-        "id": 6,
-        "name": "Chat Application",
-        "image": "https://res.cloudinary.com/dyn0kubms/image/upload/v1721808802/Screenshot_2024-07-24_134258_nd0s12.png",
-        "desc": "Personal Repo",
-        "link": "",
-        "status":"cursor-not-allowed"
+    // {
+    //     "id": 6,
+    //     "name": "Chat Application",
+    //     "image": "https://res.cloudinary.com/dyn0kubms/image/upload/v1721808802/Screenshot_2024-07-24_134258_nd0s12.png",
+    //     "desc": "Personal Repo",
+    //     "link": "",
+    //     "status":"cursor-not-allowed"
 
 
-    },
+    // },
     // {
     //     "id": 7,
     //     "name": "Clothing E-Comm",

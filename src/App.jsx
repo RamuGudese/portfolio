@@ -18,8 +18,10 @@ function App() {
       <Projects />
       <Services/>
       <Contact />
+
     </div>
   );
 }
 
 export default App;
+

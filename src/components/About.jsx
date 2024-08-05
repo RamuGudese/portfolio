@@ -45,26 +45,24 @@ function About() {
       >
         <div className="rounded-2xl md:w-2/3 text-glass shadow-[#aea5a2] dark:shadow-[#020010] dark:bg-[#111928bf] bg-[#f2f3f4] p-4 md:m-3 m-1 shadow-2xl">
           <h2 className="text-center text-style text-name text-3xl font-bold py-6">
-            Rajasekhar Maddasani
+          Ramu Gudese
           </h2>
           <div className="dark:text-white text-black font-semibold py-6">
             <h3 className="">
-              I'm a FrontEnd Developer at Attica Gold in Bangalore, India.
+              I'm a Full Stack Developer.
             </h3>
             <br />
             <h3 className="">
-              I have a passion for creating intuitive and visually appealing
-              user interfaces that enhance the overall user experience. I have a
-              strong foundation in HTML, CSS, and JavaScript, as well as
-              experience with popular front-end frameworks such as ReactJS
+            As a motivated Software Engineering graduate, I have hands-on experience in Python and web development. I am proficient in front-end and back-end technologies, including HTML, CSS, JavaScript, React, and Django. I thrive in collaborative environments and am seeking a software engineer role at a tech company to work on impactful projects. My passion for technology and problem-solving, coupled with my keen eye for detail, makes me a valuable asset to any team.
             </h3>
             <br />
-            <h3 className="pb-1">
+
+            {/* <h3 className="pb-1">
               I have worked on a variety of projects, ranging from simple
               brochure websites to complex e-commerce platforms, and have a
               proven track record of delivering high-quality results on time and
               within budget.
-            </h3>
+            </h3> */}
           </div>
         </div>
         <div data-aos="fade-up-right" className="text-center py-6 md:w-1/3">
@@ -85,13 +83,13 @@ function About() {
         <img src={html} width="120" height="80" alt="Html" />
         <img src={css} width="120" height="80" alt="Css" />
         <img src={javascript} width="120" height="80" alt="Javascript" />
-        <img src={react} width="120" height="80" alt="React" />
+        {/* <img src={react} width="120" height="80" alt="React" /> */}
         <img src={nodejs} width="120" height="40" alt="Node JS" />
         <img src={bootstrap} width="120" height="80" alt="Bootstrap" />
-        <img src={tailwind} width="120" height="80" alt="Tailwind" />
+        {/* <img src={tailwind} width="120" height="80" alt="Tailwind" /> */}
         <img src={vscode} width="120" height="80" alt="VScode" />
         <img src={python} width="90" height="80" alt="python" className="rounded-xl object-contain"/>
-        <img src="https://i.pinimg.com/564x/91/23/7f/91237f1eca767ef74d722ca534f9281a.jpg" width="90"  alt="python" className="object-contain rounded-xl ml-5"/>
+        {/* <img src="https://i.pinimg.com/564x/91/23/7f/91237f1eca767ef74d722ca534f9281a.jpg" width="90"  alt="python" className="object-contain rounded-xl ml-5"/> */}
         {/* <img src={xd} width="120" height="80" alt="Adobe xd" /> */}
         {/* <img src={figma} width="120" height="80" alt="Figma" /> */}
         <img src={github} width="120" height="80" alt="Github" />
